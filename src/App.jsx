@@ -8,6 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   // count는 주로 값이 보이는 화면
+  // 환경설정 완료
 
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React22222</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
